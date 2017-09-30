@@ -118,7 +118,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -131,7 +131,7 @@ figure {
 }
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover_2 {
-    heifght: inherit;
+    height: inherit;
     padding: 3em 0;
   }
 }
@@ -465,6 +465,7 @@ figure {
 #fh5co-content-section,
 #fh5co-work-section_2,
 #gtco-started,
+#fh5co-marketing,
 #fh5co-blog-section {
   padding: 7em 0;
 }
@@ -474,6 +475,7 @@ figure {
   #fh5co-content-section,
   #fh5co-work-section_2,
   #gtco-started,
+  #fh5co-marketing,
   #fh5co-blog-section {
     padding: 4em 0;
   }
@@ -1280,6 +1282,7 @@ figure {
   transition: 0.5s;
 }
 .gototop.active {
+}
   opacity: 1;
   visibility: visible;
 }
@@ -1303,3 +1306,65 @@ figure {
 .gototop a:hover, .gototop a:active, .gototop a:focus {
   text-decoration: none;
   outline: none;
+}
+
+
+/* Headings */
+
+.fh5co-marketing {
+  background: rgba(0, 0, 0, 0);
+}
+
+.fh5co-marketing {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.fh5co-marketing:after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 50%;
+  width: 100px;
+  margin-left: -50px;
+  height: 2px;
+  background: #FCC72C;
+}
+.fh5co-marketing h3 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 100px;
+}
+
+.fh5co-marketing h1 {
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  position: relative;
+  margin-left: 100px;
+}
+.fh5co-marketing h2 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  position: relative;
+  margin-left: 250px;
+}
+.fh5co-marketing h4 {
+  font-size: 24px;
+  letter-spacing: 2px;
+  position: relative;
+  margin-left: 240px;
+}
+.fh5co-marketing h6 {
+  font-size: 36px;
+  letter-spacing: 4px;
+  position: relative;
+  margin-left: 200px;
+}
+
+#fh5co-header-section .navbar-brand img {
+    width: 92px;
+    height: 40px;
+    margin: 0.5em;
+}
