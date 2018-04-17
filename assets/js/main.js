@@ -1,6 +1,5 @@
 function sendMail(str) {
     var link = "mailto:don.parminter@gmail.com" + "&subject=" + escape("New Contact Message") + "&body=" + escape(str);
-    location.href = link;
 }
 
 function submit_comment() {
