@@ -35,7 +35,7 @@
 
   //send mail 
  $to='don.parminter@gmail.com';
- $subject='New Contact Us Message';
+ $subject='New Portfolio Website Us Message';
  $body='<html>
             <body>
                 <h3>Feedback</h3>
